@@ -694,10 +694,10 @@ client.on("messageCreate", async(message) =>
   }
 
   ///// Comando para ver que escribe ALKA /////
-  if(message.author.discriminator == "3747")
+  /*if(message.author.discriminator == "3747")
     {
            console.log(message.content)
-  } 
+  } */
   //////////////////////////////////////////////
 })
 client.login(process.env.BOTTOKEN)
